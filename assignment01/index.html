@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>My first website</title>
+</head>
+<body>
+  <div class="container">
+  <div id= "header" class="header">
+    <div id="logo" ></div>
+    <div class="nav">
+        <ul>
+            <li><a href ="#">Home</a></li>
+            <li><a href ="#">About</a></li>
+            <li><a href ="#">blog</a></li>
+            <li><a href ="#">shop</a></li>
+            <li><a href ="#">Our Team</a></li>
+            <li><a href ="#">Services</a></li>
+            <li><a href ="#">Contact</a></li>
+        </ul>
+    </div> 
+    <div class="clear"></div> 
+  </div>
+  <div class=content>
+      <div class="row d-table-s">
+          <div class="col d-tcl-s vam">
+            <div class="fbox-media">
+                <img width="300px" height="200px" src="../img/1.jpg" alt="Why choose Us?">
+            </div>  
+            <div class="fbox-desc">
+                <h3>Why choose Us.</br><span class="subtitle">Because we are Reliable.</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
+            </div>
+          </div>
+          <div class="col d-tcl-s vam">
+              <div class="fbox-media">
+                  <img width="300px" height="200px" src="../img/1.jpg" alt="Why choose Us?">
+              </div>  
+              <div class="fbox-desc">
+                  <h3>Why choose Us.</br><span class="subtitle">Because we are Reliable.</span></h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
+              </div>
+          </div>
+          <div class="col d-tcl-s vam">
+              <div class="fbox-media">
+                  <img width="300px" height="200px" src="../img/1.jpg" alt="Why choose Us?">
+              </div>  
+              <div class="fbox-desc">
+                  <h3>Why choose Us.</br><span class="subtitle">Because we are Reliable.</span></h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
+              </div>
+          </div>
+        </div>
+  <div class="hero-section" vam>
+      <img width="800px" height="480px" src="../img/macbook.png" alt="macbook">
+  </div>
+  </div>
+  <footer></footer>
+  </div>
+
+</body>
+</html>
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("header");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
