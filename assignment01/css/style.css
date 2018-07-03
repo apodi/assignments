@@ -22,6 +22,9 @@ font-family: sans-serif
     margin: auto;
     width : 85%;
 }
+.content {
+    width:100%;
+}
 .sticky {
     position: fixed;
     top: 0;
@@ -31,6 +34,7 @@ font-family: sans-serif
       text-align: center;
       background-color: whitesmoke;
       border-bottom: 1px solid white;
+      z-index: 100px;
 }
 .header #logo {
     width: 14%;
@@ -99,6 +103,11 @@ font-family: sans-serif
 .fbox-media {
     margin-bottom : 20px;
 }
+
+.fbox-media img {
+    width: 100%;
+    height: auto
+}
 .fbox-desc h3 {
     font-size: 16px;
     font-weight: 700;
@@ -130,10 +139,8 @@ font-family: sans-serif
 }
 
 .hero-section img {
-    margin-left: auto;
-    margin-right: auto;
-    clear: both;
-    display:block
+    width: 100%;
+    height: auto
 }
 
 footer{
