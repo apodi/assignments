@@ -210,6 +210,14 @@ and (max-width : 767px) {
     .intro {
     width:100%;
     }
+    .header #logo {
+        float: none;
+        display : block;
+       
+    }
+    .header img {
+        width: auto
+    }
 }
 
 .socialmedia span {
