@@ -4,8 +4,6 @@
 	border: none;
 	list-style-type: none;
 	outline: none;
-	-moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
 	box-sizing: border-box; 
 }
 
@@ -164,7 +162,7 @@ and (max-width : 767px) {
         text-align: center;
     }
     .nav ul {
-        padding-top: 20pxpx;
+        padding-top: 20px;
         padding-bottom: 20px;
         padding-right: 20px;
     }
