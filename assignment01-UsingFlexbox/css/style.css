@@ -23,18 +23,17 @@ font-family: sans-serif
     width : 85%;
 }
 .content {
-    width:100%;
+    width: 100%;
+    margin-top: 107px
 }
-.sticky {
+.header {
+    text-align: center;
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
     position: fixed;
     top: 0;
-    width: 85%
-  }
-.header {
-      text-align: center;
-      background-color: white;
-      border-bottom: 1px solid whitesmoke;
-      z-index: 1000000px;
+    width: 85%;
+    z-index:1
 }
 .header #logo {
     float: left;
