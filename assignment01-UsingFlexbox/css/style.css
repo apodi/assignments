@@ -31,7 +31,8 @@ font-family: sans-serif
     position: fixed;
     top: 0;
     width: 85%;
-    z-index:1
+    z-index:1;
+    max-height: 263px;
 }
 .header #logo {
     float: left;
@@ -144,6 +145,9 @@ footer{
 
 @media only screen 
 and (max-width : 767px) {
+    .content {
+       margin-top:263px;
+    }
     .container-1 , .container-2 , .container-3 {
         flex-direction:column;
     }
